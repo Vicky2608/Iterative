@@ -11,7 +11,7 @@ namespace Iterative
             {
                 string input = Console.ReadLine();
                 int yrs_of_exp = int.Parse(input);
-                for (int i = 1; i <= yrs_of_exp; i++)
+                for (int i = 0; i <= yrs_of_exp; i++)
                 {
                     Console.WriteLine("You have got " + i.ToString() + " years of experience");
                 }
